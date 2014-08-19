@@ -1,0 +1,15 @@
+{
+    "name"    : "TagsAudio",
+    "version" : "0.0.0",
+    "description": "Cloud audio catalog (only tags) with accounts and tag synchronization",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RemRyahirev/TagsAudio.git"
+    },
+    "engines" : {
+        "node" : "^0.10.26",
+        "npm" : "^1.4.3"
+    },
+    "author": "RemRyahiev",
+    "license": "BSD"
+}
