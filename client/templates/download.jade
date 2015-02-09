@@ -1,0 +1,15 @@
+//-
+   Created by Rem on 09.02.2015.
+
+extends ./layouts/main
+
+block content
+   if (!list || !list.length)
+      h2 Sorry, there is no any client yet :(
+   else
+      table(style="margin: 0 auto;")
+         each file in list
+            tr
+               td: a(href=file.path)= file.name
+               td(style="padding-left: 40px;")= file.size + ' MB'
+               td(style="padding: 5px 0 5px 40px;")!= file.date

@@ -1,0 +1,13 @@
+//-
+   Created by Rem on 09.02.2015.
+
+extends ./layouts/main
+
+block content
+   h3 #{title}
+   if (!list || !list.length)
+      h2 Sorry, there is no any data yet :(
+   else
+      table(style="margin: 0 auto;")
+         each file in list
+            tr: td: a(href=file.url)= file.name

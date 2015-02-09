@@ -32,3 +32,9 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+*.iml
+bower_components
+/test.js
+/build
+/.rebooted

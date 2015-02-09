@@ -1,0 +1,46 @@
+//
+   Created by Rem on 09.02.2015.
+
+extends ./layouts/main
+
+block content
+   h1= file.title
+
+   table(style="margin: 0 auto;")
+      tr
+         th Uploaded
+         td= file.upload_count + ' times'
+      tr
+         th Size
+         td= file.size + ' bytes'
+      tr
+         th Link
+         td= file.link
+
+   if (file.tags)
+      br
+      br
+
+      h3 Tags
+
+      table(style="margin: 0 auto;")
+         tr
+            th Track number
+            td= file.tags.track_number
+         tr
+            th Title
+            td= file.tags.title
+         tr
+            th Artist
+            td= file.tags.artist
+         tr
+            th Album
+            td= file.tags.album
+         tr
+            th Year
+            td= file.tags.year
+         tr
+            th Genres
+            td= file.tags.genres
+   else
+      h4 There is no tags

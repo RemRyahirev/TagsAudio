@@ -1,0 +1,57 @@
+//-
+   Created by Rem on 08.02.2015.
+
+doctype html
+html(lang="en")
+   head
+      meta(charset="UTF-8")
+      title TagsAudio project
+      style.
+         @import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+            body {
+               margin:0;
+         font-family:'Lato', sans-serif;
+         text-align:center;
+         color: #999;
+         }
+         .welcome {
+         width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 50%;
+         top: 50%;
+         margin-left: -150px;
+         margin-top: -150px;
+         }
+         .body {
+            margin: 30px auto 0;
+            width: 500px;
+         }
+            a, a:visited {
+               color:#FF5949;
+               text-decoration:none;
+         }
+            a:hover {
+               text-decoration:underline;
+         }
+            ul li {
+               display:inline;
+               margin:0 1.2em;
+         }
+         p {
+            margin:2em 0;
+            color:#555;
+         }
+         .links a {
+            margin-left: 5px;
+         }
+   body
+      .body
+         h1 TagsAudio project
+         .links
+            a(href=urls.home) Home
+            a(href=urls.catalog) Catalog
+            a(href=urls.download) Download
+         br
+         br
+         block content

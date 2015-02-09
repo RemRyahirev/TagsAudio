@@ -1,0 +1,26 @@
+{
+  "name": "TagsAudio",
+  "version": "0.0.0",
+  "author": "RemRyahirev <remryahirev@gmail.com>",
+  "description": "Cloud audio catalog (only tags) with accounts and tag synchronization",
+  "main": "./assets",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "mp3",
+    "tags"
+  ],
+  "license": "BSD",
+  "homepage": "tagsaudio.net",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

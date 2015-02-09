@@ -1,0 +1,32 @@
+{
+    "port"  : 80,
+    "cache" : {
+        "maxAge" : 86400
+    },
+    "auth"  : {
+        "secret" : "Afd#Fe7@fd-&yg78=AFSf__fsa.dgц^_^",
+        "cookie" : {
+            "name"        : "w",
+            "keySecret"   : "&er)9Nd-as_w>wf3r{e]flк'ф",
+            "valueSecret" : "ж2&_Jid*sp<d~sf`fd'fйy|/",
+            "ttl"         : 86400,
+            "domain"      : false,
+            "secure"      : false,
+            "httpOnly"    : false
+        }
+    },
+
+    "log" : {
+        "level" : "debug"
+    },
+
+    "mongodb" : {
+        "uri" : "mongodb://localhost/tagsaudio"
+    },
+
+    "test" : {
+        "db"        : "tagsaudio-test",
+        "db_uri"    : "mongodb://localhost/tagsaudio-test",
+        "log-level" : "error"
+    }
+}
